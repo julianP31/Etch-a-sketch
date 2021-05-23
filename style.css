@@ -1,0 +1,23 @@
+#container{
+    display:grid;
+    grid-template-columns:repeat(16,1fr);
+    grid-template-rows:repeat(16,1fr);
+    width:500px;
+    max-width: 500px;
+    height:350px;
+    max-height: 350px;
+    padding-left:25%;
+    padding-top: 5%;
+}
+.square{
+    
+    height:10px;
+    border: 1px solid black;
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+}
+.color{
+    background-color:rgb(255,255,6);
+}
