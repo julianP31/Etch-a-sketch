@@ -9,15 +9,28 @@
     padding-left:25%;
     padding-top: 5%;
 }
+
 .square{
-    
-    height:10px;
     border: 1px solid black;
 }
-header{
+
+#header{
     text-align: center;
     padding-top: 20px;
 }
+
+#text{
+    display: inline-block;
+    padding-right:15px;
+}
+
+#btn-change-size{
+    padding: 5px;
+    color:white;
+    background-color:#48e;
+    border-radius: 5px;
+}
+
 .color{
     background-color:rgb(255,255,6);
 }
