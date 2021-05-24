@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 #container{
     display:grid;
     grid-template-columns:repeat(16,1fr);
@@ -6,8 +10,7 @@
     max-width: 500px;
     height:350px;
     max-height: 350px;
-    padding-left:25%;
-    padding-top: 5%;
+    margin:5% auto;
 }
 
 .square{
@@ -15,16 +18,19 @@
 }
 
 #header{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
 }
 
 #text{
+    font-size: 25px;
     display: inline-block;
     padding-right:15px;
 }
 
 #btn-change-size{
+    font-size: 15px;
     padding: 5px;
     color:white;
     background-color:#48e;
